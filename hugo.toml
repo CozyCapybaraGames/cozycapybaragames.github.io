@@ -1,4 +1,3 @@
-baseURL = 'https://cozycapybaragames.github.io'
 languageCode = 'en-us'
 title = 'Cozy Capybara Games'
 theme = 'hello-friend-ng'
