@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cozy Capybara Games</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Cozy Capybara Games</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 May 2024 07:17:35 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mi is az a Haxe?</title>
+      <link>http://localhost:1313/haxe/intro/</link>
+      <pubDate>Thu, 30 May 2024 07:17:35 +0200</pubDate>
+      <guid>http://localhost:1313/haxe/intro/</guid>
+      <description>Röviden: A Haxe egy kevésbé ismert, érdekes és rugalmas programozási nyelv - ezt fogjuk használni innentől jam-ekhez és egyéb projektekhez. A legtöbb programozási nyelvvel ellentétben a Haxe-t elég nehéz beskatulyázni valamilyen sémába vagy proginyelv-családba, de ha össze kéne foglalnom, azt mondanám:&#xA;A Haxe egy statikus-plusz-dinamikus típusrendszerű, magas-szintű, objektum-orientált, szintaxisban Java-ra hasonlító, ám funkcionális nyelvekből kölcsönvett építőelemekkel megspékelt programozási nyelv és a vele járó toolkit, ami a Haxe kódot más programozási nyelven írt forráskódra fordítja.</description>
+    </item>
+    <item>
+      <title>Miért váltanunk nyelvet?</title>
+      <link>http://localhost:1313/haxe/miert/</link>
+      <pubDate>Thu, 30 May 2024 07:17:30 +0200</pubDate>
+      <guid>http://localhost:1313/haxe/miert/</guid>
+      <description>Ha nem érdekel a rizsa, ugorj az Összefoglalva részhez!&#xA;Bár programozási nyelv fanatikus (én) szempontjából a Haxe rendkívül magával ragadó nyelvecske, nem az volt a cél, hogy mindenkire egy új nyelvet erőltessek ok nélkül. Amikor elkezdtük ezt az egészet, a következő fejlesztési környezetet szerettem volna megteremteni mindenkinek:&#xA;Könnyen tanulható legyen Egyszerű legyen a telepítés / setup folyamat Gyorsan lehessen benne kódolni Legyen egy játékfejlesztési izébizé hozzá, ami&amp;hellip; egyértelmű jó hozzá a doksi nem okoz semmilyen problémát Git-el, hogy tudjunk együtt dolgozni nem kell egy NASA szuperkompjúter, hogy megnyiss egy projektet Működjön web-en (opcionális) és ezekre pedig a tökéletes nyelv: &amp;hellip;&amp;hellip;(dobpergés)&amp;hellip;&amp;hellip;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/haxe/cs/valtozok/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/haxe/cs/valtozok/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

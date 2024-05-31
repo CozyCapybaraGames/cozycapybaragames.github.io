@@ -1,0 +1,29 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Cozy Capybara Games'
+theme = 'hello-friend-ng'
+
+[params]
+    homeSubtitle = 'Dokumentáció, ismeretterjesztő szövegek, "tananyag", stb.'
+    enableSharingButtons = true
+    customCSS = ['/css/styles.css']
+    enableThemeToggle = true
+    
+[params.logo]
+    logoText = 'Főoldal'
+    logoCursorColor = '#eb4b42' 
+
+[params.portrait]
+    path = 'logo.png'
+    maxWidth = '280px'
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
+[menu]
+    [[menu.main]]
+       identifier = 'Haxe'
+       name = 'Haxe'
+       url = '/haxe' 
