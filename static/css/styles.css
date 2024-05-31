@@ -17,6 +17,11 @@
     background: #1d1b33;
 }
 
+a {
+    color: #eb4b42;
+    font-family: 'JetBrains Mono';
+}
+
 h1 {
     color: #eb4b42;
     font-family: 'Kaph';
@@ -33,10 +38,6 @@ blockquote {
     border-left: 3px solid #eb4b42;
 }
 
-a {
-    color: #eb4b42;
-    font-family: 'JetBrains Mono';
-}
 
 .toolbar-item span {
     display: none;
