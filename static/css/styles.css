@@ -22,7 +22,7 @@ a {
     font-family: 'JetBrains Mono';
 }
 
-h1 > a{
+h1, h1 > a{
     color: #eb4b42;
     font-family: 'Kaph';
     font-weight: 500;
