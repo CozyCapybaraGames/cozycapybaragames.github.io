@@ -13,32 +13,32 @@ other = "Also available in"
 # 404.html
 #
 [archives]
-other = "Archives"
+other = "Archívum"
 
 [home]
-other = "Home"
+other = "Főoldal"
 
 [notFound]
-other = "Oops, page not found…"
+other = "Hoppá, nem található ilyen oldal…"
 
 
 # posts/single.html
 #
 [readingTime]
-one   = "One minute"
-other = "{{ .Count }} minutes"
+one   = "Egy perc"
+other = "{{ .Count }} perc"
 
 [tableOfContents]
 other = "Table of Contents"
 
 [wordCount]
-one   = "One Word"
-other = "{{ .Count }} Words"
+one   = "Egy Szó"
+other = "{{ .Count }} Szó"
 
 [lastModified]
-other = "Last updated"
+other = "Utoljára frissítve"
 
 # partials/pagination-list.html
 [pagination]
-newerPosts = "Newer posts"
-olderPosts = "Older posts"
+newerPosts = "Újabb posztok"
+olderPosts = "Régebbi posztok"
