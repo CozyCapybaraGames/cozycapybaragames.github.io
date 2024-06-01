@@ -1,6 +1,5 @@
 +++
 title = 'Haxe mint nyelv'
-date = 2024-05-23T16:28:25+02:00
 draft = true
 type = 'posts'
 layout = 'posts'

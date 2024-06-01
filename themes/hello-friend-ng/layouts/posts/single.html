@@ -15,6 +15,13 @@
           {{ end}}
         {{ end }}
       </p>
+      <p>
+        <svg class="feather feather-clock" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="feather">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4.988 19.012 5.41-5.41m2.366-6.424 4.058 4.058-2.03 5.41L5.3 20 4 18.701l3.355-9.494 5.41-2.029Zm4.626 4.625L12.197 6.61 14.807 4 20 9.194l-2.61 2.61Z"/>
+        </svg>
+        
+        Szerző: {{ .GitInfo.AuthorName }}
+      </p>
     </div>
 
     <article>
@@ -82,18 +89,14 @@
           <line x1="8" y1="2" x2="8" y2="6"></line>
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
-        {{ if .Site.Params.dateformNumTime }}
-          {{ dateFormat .Site.Params.dateformNumTime .Date.Local }}
-        {{ else }}
-          {{ dateFormat "2006-01-02 15:04" .Date.Local }}
-        {{ end }}
+        
 
         {{ if .Lastmod }} 
           {{ if not (eq .Lastmod .Date )}}
             {{ if .Site.Params.dateformNumTime }}
               ({{ i18n "lastModified" }}: {{ dateFormat .Site.Params.dateformNumTime .Lastmod.Local }})
             {{ else }} 
-              ({{ i18n "lastModified" }}: {{ dateFormat "2006-01-02 15:04" .Lastmod.Local }})
+              {{ dateFormat "2006-01-02 15:04" .Lastmod.Local }}
             {{ end }}
           {{ end }}
         {{ end }}

@@ -2,12 +2,14 @@ baseURL = 'https://cozycapybaragames.github.io/'
 languageCode = 'en-us'
 title = 'Cozy Capybara Games'
 theme = 'hello-friend-ng'
+enableGitInfo = true
 
 [params]
     homeSubtitle = 'Dokumentáció, ismeretterjesztő szövegek, "tananyag", stb.'
     enableSharingButtons = true
     customCSS = ['/css/styles.css']
     enableThemeToggle = true
+    gitUrl = 'https://github.com/cozycapybaragames/cozycapybaragames.github.io/commit/'
     
 [params.logo]
     logoText = 'Főoldal'

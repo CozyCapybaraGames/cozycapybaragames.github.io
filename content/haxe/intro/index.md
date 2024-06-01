@@ -1,6 +1,5 @@
 +++
 title = 'Mi is az a Haxe?'
-date = 2024-05-30T07:17:35+02:00
 draft = false
 type = 'posts'
 layout = 'posts'
