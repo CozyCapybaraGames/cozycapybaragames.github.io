@@ -38,9 +38,8 @@ blockquote {
     border-left: 3px solid #eb4b42;
 }
 
-
-.toolbar-item span {
-    display: none;
+.toolbar-item {
+    margin-inline: .25rem;
 }
 
 .menu, span.post-title {
