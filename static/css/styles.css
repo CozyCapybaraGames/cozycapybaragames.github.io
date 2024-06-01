@@ -46,3 +46,16 @@ blockquote {
 .menu, span.post-title {
     font-family: 'JetBrains Mono';
 }
+
+.logo__mark {
+    font-family: 'Kaph';
+}
+
+.logo__text {
+    font-family: 'Kaph';
+    font-weight: 100;
+}
+
+.menu a {
+    text-decoration: underline;
+}
