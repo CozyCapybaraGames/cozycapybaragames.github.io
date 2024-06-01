@@ -1,5 +1,5 @@
 +++
-title = 'Miért váltanunk nyelvet?'
+title = 'Miért váltunk nyelvet?'
 date = 2024-05-30T07:17:30+02:00
 draft = false
 type = 'posts'
