@@ -8,9 +8,10 @@
             <div class="content">{{ .Content }}</div>
         {{ end }}
 
-        {{ range $paginator.Pages.GroupByDate "2006" }}
+        {{ range $paginator.Pages.GroupByLastmod "2006" }}
             <div class="posts-group">
                 <div class="post-year">{{ .Key }}</div>
+
 
                 <ul class="posts-list">
                     {{ range .Pages }}
@@ -19,9 +20,9 @@
                                 <span class="post-title">{{.Title}}</span>
                                 <span class="post-day">
                                     {{ if .Site.Params.dateformShort }}
-                                        {{ .Date.Format .Site.Params.dateformShort }}
+                                        {{ .Lastmod.Format .Site.Params.dateformShort }}
                                     {{ else }}
-                                        {{ .Date.Format "Jan 2"}}
+                                        {{ .Lastmod.Format "Jan 2" }}
                                     {{ end }}
                                 </span>
                             </a>
