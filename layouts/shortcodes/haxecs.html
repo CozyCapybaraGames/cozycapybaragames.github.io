@@ -1,0 +1,44 @@
+<style>
+    .grid {
+        display: grid;
+
+        /*
+        @media screen and (min-width: 900px) {
+            grid-template-areas:
+                "csheader hxheader"
+                "cscode hxcode";
+
+            grid-template-columns: repeat(2, 50%);
+            grid-template-rows: repeat(2, auto);
+            column-gap: .5rem;
+        }
+        */
+
+        /*@media screen and (max-width: 900px) { */
+            grid-template-areas:
+                "csheader"
+                "cscode"
+                "hxheader"
+                "hxcode";
+
+            grid-template-columns: 100%;
+            grid-template-rows: auto; 
+            row-gap: .5rem;
+        /* } */
+    }
+    
+</style>
+<div class="grid">
+    <h2 style="margin-block: 0; justify-self: center; grid-area: csheader">C#</h2>
+    <h2 style="margin-block: 0; justify-self: center; grid-area: hxheader">Haxe</h2>
+    <div style="grid-area: cscode;">
+        <pre><code class="language-cs">
+            {{ .Get 0 }}
+        </code></pre> 
+    </div>
+    <div style="grid-area: hxcode">
+        <pre><code class="language-haxe">
+            {{ .Get 1 }}
+        </code></pre>
+    </div>
+</div>
